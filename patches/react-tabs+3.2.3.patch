@@ -1,0 +1,80 @@
+diff --git a/node_modules/react-tabs/style/react-tabs.css b/node_modules/react-tabs/style/react-tabs.css
+index 8bb668b..cbe9f73 100644
+--- a/node_modules/react-tabs/style/react-tabs.css
++++ b/node_modules/react-tabs/style/react-tabs.css
+@@ -11,9 +11,9 @@
+ .react-tabs__tab {
+   display: inline-block;
+   border: 1px solid transparent;
+-  border-bottom: none;
+-  bottom: -1px;
+-  position: relative;
++ /* border-bottom: none;*/
++    /*bottom: -1px;*/
++    position: relative;
+   list-style: none;
+   padding: 6px 12px;
+   cursor: pointer;
+@@ -21,7 +21,9 @@
+ 
+ .react-tabs__tab--selected {
+   background: #fff;
+-  border-color: #aaa;
++  /*border-color: #aaa;*/
++  border-bottom: 1px solid black;
++
+   color: black;
+   border-radius: 5px 5px 0 0;
+ }
+diff --git a/node_modules/react-tabs/style/react-tabs.less b/node_modules/react-tabs/style/react-tabs.less
+index 87c792e..42b549a 100644
+--- a/node_modules/react-tabs/style/react-tabs.less
++++ b/node_modules/react-tabs/style/react-tabs.less
+@@ -10,8 +10,8 @@
+   &__tab {
+     display: inline-block;
+     border: 1px solid transparent;
+-    border-bottom: none;
+-    bottom: -1px;
++ /* border-bottom: none;*/
++    /*bottom: -1px;*/
+     position: relative;
+     list-style: none;
+     padding: 6px 12px;
+@@ -19,7 +19,8 @@
+ 
+     &--selected {
+       background: #fff;
+-      border-color: #aaa;
++     /*border-color: #aaa;*/
++       border-bottom: 1px solid black;
+       color: black;
+       border-radius: 5px 5px 0 0;
+     }
+diff --git a/node_modules/react-tabs/style/react-tabs.scss b/node_modules/react-tabs/style/react-tabs.scss
+index 87c792e..09a144e 100644
+--- a/node_modules/react-tabs/style/react-tabs.scss
++++ b/node_modules/react-tabs/style/react-tabs.scss
+@@ -10,8 +10,8 @@
+   &__tab {
+     display: inline-block;
+     border: 1px solid transparent;
+-    border-bottom: none;
+-    bottom: -1px;
++ /* border-bottom: none;*/
++    /*bottom: -1px;*/
+     position: relative;
+     list-style: none;
+     padding: 6px 12px;
+@@ -19,8 +19,9 @@
+ 
+     &--selected {
+       background: #fff;
+-      border-color: #aaa;
+-      color: black;
++     /*border-color: #aaa;*/
++     border-bottom: 1px solid black;
++     color: black;
+       border-radius: 5px 5px 0 0;
+     }
+ 

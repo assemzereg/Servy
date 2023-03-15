@@ -1,0 +1,66 @@
+.mass-navigation {
+  width: 100%;
+  height: 30px;
+  border-bottom: 2px solid black;
+  background-color: rgb(31, 78, 231);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.mass-link {
+  color: aliceblue;
+  font-size: 20px;
+  font-weight: bold;
+}
+/* Products page */
+.full-width-product {
+  width: 100%;
+  background-color: white;
+  padding-top: 22px;
+}
+.prod-box-full {
+  max-width: 1010px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+.sevetipart {
+  width: 70%;
+  border-right: 0.5px solid #8e8e8e;
+}
+.thertipart {
+  width: 30%;
+  padding-left: 8px;
+}
+.site-map {
+  width: 1010;
+  margin: auto;
+}
+.morepadding {
+  padding-left: 8px;
+}
+.flexrow {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.service-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 16px;
+}
+.deliv-title-type {
+  font-size: 12px;
+  line-height: 18px;
+}
+.adress-type {
+  font-size: 6px;
+  line-height: 9px;
+}
+.grade-service {
+  font-size: 11px;
+  line-height: 16px;
+  color: #f29036;
+}
+/* Products page */

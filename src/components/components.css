@@ -1,0 +1,539 @@
+/* Start CSS for the Prefences box */
+.preference-box {
+  width: 792px;
+  height: 222px;
+  margin: auto;
+  background-color: white;
+  padding: 20px 16px;
+  border-radius: 8px;
+}
+.Pre-title {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #1c0f04;
+}
+.Pre-text {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
+}
+.Pre-info {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 15px;
+  color: #8e8e8e;
+}
+.Pre_box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 24px;
+}
+.pre-type {
+  padding: 8px 12px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  color: #263238;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  border-radius: 5px;
+  border: 0.5px solid #8e8e8e;
+  box-sizing: border-box;
+}
+
+.pre-type-click {
+  padding: 8px 12px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  color: white;
+  background-color: #f29036;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  border-radius: 5px;
+  border: 0.5px solid #8e8e8e;
+  box-sizing: border-box;
+}
+/* End CSS for the Prefences box */
+/* Start CSs for categories Box */
+/* to handel open and close */
+.open {
+  display: none;
+}
+/* End to handel open and close */
+
+.categorie-box {
+  width: 99.88%;
+}
+.categorie-nav-style {
+  width: 100%;
+  height: 42px;
+  border: 0.5px solid #dbdbdc;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+.all-categories {
+  font-weight: 400;
+  height: 100%;
+  width: 20%;
+  border: none;
+  border-right: 0.5px solid #dbdbdc;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  color: #1c0f04;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.categ-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding-left: 15px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+}
+.categ-elem {
+  margin-right: 40px;
+}
+.more-categ {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  position: static;
+  width: 453px;
+  height: 224px;
+}
+.nest-more-categ-lists {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 260px;
+  height: 224px;
+  background: #f0eec2;
+  padding: 8px 16px;
+  font-family: Poppins;
+  font-style: normal;
+}
+.hr-orang {
+  position: static;
+  width: 228px;
+  border-color: #e7770f;
+}
+.more-categ-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 193px;
+  height: 224px;
+  border: 0.5px solid #8e8e8e;
+  background-color: white;
+}
+.ul--more-categ-list {
+  margin: auto;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 80%;
+}
+.colunm-flex {
+  display: flex;
+  flex-direction: row;
+  width: 226px;
+  justify-content: space-between;
+}
+.elem-more-categ-list {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 15px;
+  color: #5a5a5a;
+}
+/* End CSs for categories Box */
+/* Start CSS for trndi sellers */
+.trend-sellers-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 284px;
+  background-color: #ffffff;
+  height: fit-content;
+  margin: auto;
+  margin-bottom: 8px;
+  border: 0.5px solid #dbdbdc;
+}
+.Trend-header {
+  width: 264px;
+  height: 25px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 0.5px solid #dbdbdc;
+}
+.trend-slellers-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.trend-slellers-elem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 65px;
+  border-bottom: 0.5px solid #dbdbdc;
+  cursor: pointer;
+}
+.trend-slellers-list :hover {
+  border: 1px solid;
+  border-color: #a65409;
+}
+
+.seller-img {
+  width: 40px;
+  height: 40px;
+  margin-left: 12px;
+  margin-right: 12px;
+  border-radius: 50%;
+}
+.seller-name {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  color: #000000;
+}
+.seller-city {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 6px;
+  line-height: 9px;
+  color: #6c7980;
+}
+.seller-rate {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #f29036;
+}
+/* End CSS for trndi sellers */
+/* Start CSS for the product descrption in product page */
+.product-sho-box {
+  width: 100%;
+  height: 520px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+}
+.product-sho-box-one {
+  width: 45%;
+  max-width: 300px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.prod-big-img {
+  width: 100%;
+  height: 379;
+  overflow: hidden;
+}
+.big-img-img {
+  width: 100%;
+  height: 100%;
+}
+.more-prod-img {
+  width: 100%;
+  min-width: 280px;
+  height: 111px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.small-prod-img {
+  width: 88px;
+  height: 111px;
+  overflow: hidden;
+}
+.descriptionpart {
+  width: 55%;
+  height: 100%;
+  padding: 0px 8px;
+}
+.description-title {
+  width: 100%;
+  font-weight: 500;
+  font-size: 24px;
+}
+.grade-prod {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 16px;
+  color: #32d823;
+  margin-bottom: 11px;
+}
+
+.soldby {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  margin-bottom: 8px;
+}
+
+.profilepicandname {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  margin-bottom: 11px;
+}
+.profile-img-desc {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+.shopname {
+  font-size: 12px;
+  line-height: 18px;
+}
+.shopaddress {
+  font-size: 6px;
+  line-height: 9px;
+  color: #6c7980;
+}
+.addcart {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 11px;
+}
+.quantincrm {
+  width: 15%;
+}
+.addcart-btn {
+  width: 67%;
+  background: #ff5129;
+  border-radius: 5px;
+  border: none;
+}
+.likepeod {
+  width: 15%;
+}
+.color-imgs {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.one-color-img {
+  width: 89px;
+  height: 111px;
+  border-radius: 6px;
+  margin-right: 8px;
+}
+.small-color-img {
+  width: 100%;
+  height: 100%;
+}
+
+/* END CSS for the product descrption in product page */
+/* SignuoCarte */
+.allSinup-box {
+  width: 50%;
+  padding: 20px 16px;
+  background-color: white;
+}
+.Signup-box-title {
+  width: 100%;
+  font-size: 36px;
+  line-height: 54px;
+  color: #1c0f04;
+}
+.User-type {
+  width: 100%;
+  height: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.one-type {
+  width: 33.33%;
+  height: 100%;
+  font-size: 12px;
+  line-height: 18px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 0.5px solid gray;
+}
+.selected-type {
+  border-bottom: 5px solid black;
+}
+.photo-upload-box {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 20px 0px;
+}
+.photo-holder {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  margin-right: 20px;
+  background-color: gray;
+}
+.PPhoto {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.uploadimg {
+  width: 139px;
+  height: 30px;
+  border: 1px solid #c5bdb6;
+  background: #ffffff;
+  border-radius: 5px;
+  font-size: 12px;
+  line-height: 18px;
+  color: #c5bdb6;
+}
+.inputs {
+  width: 100%;
+}
+.label-text {
+  font-size: 12px;
+  line-height: 18px;
+  color: #6c7980;
+}
+.div-in-half {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 56px;
+  margin-bottom: 16px;
+}
+.half-div {
+  width: 46%;
+  height: 56px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.label-text {
+  width: 100%;
+}
+.div-in-full {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 56px;
+  margin-bottom: 16px;
+}
+input,
+select {
+  padding: 8px 12px;
+  height: 34px;
+  background: #ffffff;
+  border: 0.5px solid #8e8e8e;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.signup-btn {
+  width: 100%;
+  height: 30px;
+  background: #f29036;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  font-size: 12px;
+}
+
+.terms-box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.termofuse {
+  font-size: 10px;
+  color: #8e8e8e;
+}
+.termuse {
+  font-size: 10px;
+  line-height: 15px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #e7770f;
+}
+.direct-log {
+  font-size: 10px;
+  line-height: 15px;
+}
+.hr-r {
+  width: 90%;
+  border-color: #c4c4c4;
+}
+a {
+  cursor: pointer;
+}
+/* SignuoCarte */
+/* descRev */
+.tablistcss {
+  width: 488px;
+  height: 29px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+ul {
+  list-style-type: none;
+}
+/* descRev */
